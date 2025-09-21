@@ -46,3 +46,22 @@ body{
 .pattern{
     width: 180px;
 }
+.data{
+    font-size: 13px
+}
+.text{
+    width: 35rem;
+}
+.do{
+    color: green;
+}
+.avoid{
+    color: red;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.shape{
+    width: 150px;
+}
