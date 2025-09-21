@@ -29,3 +29,20 @@ body{
     cursor: pointer;
 }
 /* form style */
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.card *{
+    margin: 0.25rem;
+}
+.input{
+    border: none;
+    background-color: #D9D9D9;
+    padding: 5px;
+    border-radius: 30px;
+}
+.pattern{
+    width: 180px;
+}
