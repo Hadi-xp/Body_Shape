@@ -19,9 +19,14 @@ function bodyShapeCalculate(e){
         window.alert('Please enter all values');
         return; // stop function here
     }
+    //  Negative number check
+    if (bust < 0 || waist < 0 || hip < 0 || highHip < 0) {
+       window.alert("inputs cannot be negative");
+        return;
+    }
     // radio
-    // ✅ Convert inches to cm if needed (1 inch = 2.54 cm)
-    if (unit === "inch") {
+    //  Convert inches to cm if needed (1 inch = 2.54 cm)
+    if (unitSelector === "inch") {
         bust *= 2.54;
         waist *= 2.54;
         hip *= 2.54;
