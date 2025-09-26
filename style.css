@@ -65,3 +65,18 @@ body{
 .shape{
     width: 150px;
 }
+/* footer & stick to bottom */
+.footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* background-color gradiant */
+    /* gradiant from top to bottom */
+    background: linear-gradient(to right, #A58655, #DEC793, #A58655);
+}
+.footerLogo{
+    width: 100px;
+}
+
