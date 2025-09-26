@@ -24,7 +24,7 @@ body{
     padding: 10px;
     border: none;
     border-radius: 30px;
-    background: linear-gradient(#A58655,#DEC793,#A58655);
+    background: linear-gradient(to right,#A58655,#DEC793,#A58655);
     box-shadow: 0 1px 4px 0 gray;
     cursor: pointer;
 }
