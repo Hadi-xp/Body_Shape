@@ -10,10 +10,11 @@ body{
 /* navigation bar style */
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100px;
+    gap: 25rem;
 }
 .logo{
     width: 150px;
