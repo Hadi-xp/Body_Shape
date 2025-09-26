@@ -78,6 +78,9 @@ body{
     width: 180px;
     border-radius: 10px;
 }
+.result{
+    margin-bottom: 4rem;
+}
 .data{
     font-size: 13px
 }

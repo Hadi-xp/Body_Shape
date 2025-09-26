@@ -12,6 +12,11 @@ function bodyShapeCalculate(e){
     const waist = document.querySelector('#Waist').value
     const hip = document.querySelector('#Hip').value
     const highHip = document.querySelector('#Highhip').value
+    // validation
+    if (!bust || !waist || !hip || !highHip) {
+        window.alert('Please enter all values');
+        return; // stop function here
+    }
     // radio
     const BHR = bust / hip;       // Bust-to-Hip ratio
     const WHR = waist / hip;      // Waist-to-Hip ratio
