@@ -12,12 +12,21 @@ function bodyShapeCalculate(e){
     const waist = document.querySelector('#Waist').value
     const hip = document.querySelector('#Hip').value
     const highHip = document.querySelector('#Highhip').value
+    const unitSelector = document.querySelector('.unitSelector').value
+
     // validation
     if (!bust || !waist || !hip || !highHip) {
         window.alert('Please enter all values');
         return; // stop function here
     }
     // radio
+    // ✅ Convert inches to cm if needed (1 inch = 2.54 cm)
+    if (unit === "inch") {
+        bust *= 2.54;
+        waist *= 2.54;
+        hip *= 2.54;
+        highHip *= 2.54;
+    }
     const BHR = bust / hip;       // Bust-to-Hip ratio
     const WHR = waist / hip;      // Waist-to-Hip ratio
     const WBR = waist / bust;     // Waist-to-Bust ratio
