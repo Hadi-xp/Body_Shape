@@ -11,7 +11,7 @@ function bodyShapeCalculate(e){
     const bust = document.querySelector('#Bust').value
     const waist = document.querySelector('#Waist').value
     const hip = document.querySelector('#Hip').value
-    const highHip = document.querySelector('#Highhip').value
+    const highHip = document.querySelector('#HighHip').value
     const unitSelector = document.querySelector('.unitSelector').value
 
     // validation
