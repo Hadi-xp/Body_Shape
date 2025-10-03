@@ -125,4 +125,10 @@ body{
     font-size: 15px;
     margin-top: auto;
 }
-
+/* userInfo style css */
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-right: 4rem;
+}
