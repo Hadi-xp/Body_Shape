@@ -1,7 +1,7 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const cors = require('cors');
 const config = require('config')
-const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/elhamStyle')
 .then(()=>{console.log('connected to DB');})
 .catch(()=>{console.log('not connected');})
@@ -13,19 +13,7 @@ app.get('/testAPI',(req,res)=>{
     res.json({
         data:'this is a test msg'
     })
-})
-
-
-
-
-
-
-
-
-
-
-
-
+});
 
 
 
