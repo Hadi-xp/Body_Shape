@@ -10,6 +10,6 @@ const userBodySchema = new mongoose.Schema({
 });
 
 
-const bodySize = mongoose.model('userBodySize', userBodySchema);
+const BodySize = mongoose.model('userBodySize', userBodySchema);
 
-module.exports = bodySize;
+module.exports = BodySize;
