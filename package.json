@@ -1,0 +1,26 @@
+{
+  "name": "body_shape",
+  "version": "1.0.0",
+  "description": "this is a Data Base and API for a ElhamStyleProject so students can save their body sizes in DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadi-xp/Body_Shape.git"
+  },
+  "author": "Hadixp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadi-xp/Body_Shape/issues"
+  },
+  "homepage": "https://github.com/Hadi-xp/Body_Shape#readme",
+  "dependencies": {
+    "config": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.0",
+    "nodemon": "^3.1.10"
+  }
+}
