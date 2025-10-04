@@ -6,7 +6,7 @@ const userBodySchema = new mongoose.Schema({
     Hip:{type: Number, required: true},
     HighHip:{type: Number, required: true},
     Name:{type: String, required: true},
-    bodyShape:{type: String, required: true}
+    bodyShape:{type: String}
 });
 
 
